@@ -1,0 +1,58 @@
+body {
+    font-family: "Doto", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    margin: 0;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+ul, li {
+    list-style-type: none;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+.grid-container {
+    max-width: 960px;
+    margin: 100px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+section {
+    border: 5px solid #101010;
+}
+
+.testone {
+    background-color: black;
+}
+
+.testtwo {
+    background-color: crimson;
+}
+
+.testthree {
+    background-color: dimgray;
+}
+
+.testfour {
+    background-color: green;
+}
+
+.testfive {
+    background: rgb(150, 150, 38);
+}
+
+footer {
+    text-align: center;
+}
